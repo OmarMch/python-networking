@@ -1,2 +1,2 @@
 # python-networking
-Mastering Python Networking 2nd edition, python exercises.
+Mastering Python Networking 2nd edition python exercises.
