@@ -8,7 +8,7 @@ import os
 pathname = 1
 
 # define the name of the directory to be created(replace "path" with own)
-path_dir = "/path/Chapter_" + str(pathname)
+path_dir = "/home/och/Git/python-networking/Chapter_" + str(pathname)
 
 # folder access rights 
 access_rights = 0o777
@@ -19,7 +19,7 @@ while pathname < 14:
         os.makedirs(path_dir, access_rights)
     pathname += 1
     # replace "path" as well.
-    path_dir = "/path/Chapter_" + str(pathname)
+    path_dir = "/home/och/Git/python-networking/Chapter_" + str(pathname)
     print("Successfuly created the directory %s" % pathname)
 
 
